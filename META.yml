@@ -1,0 +1,31 @@
+---
+abstract: 'an XS-based TOBYINK::Acme::Acme::Acme'
+author:
+  - 'Toby Inkster <tobyink@cpan.org>'
+build_requires: {}
+configure_requires:
+  ExtUtils::MakeMaker: 6.31
+dynamic_config: 0
+generated_by: 'Dist::Inkt::Profile::TOBYINK version 0.001, CPAN::Meta::Converter version 2.120921'
+keywords: []
+license: unknown
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: TOBYINK-Acme-Acme-Acme-XS
+no_index:
+  directory:
+    - inc
+    - t
+    - xt
+provides:
+  TOBYINK::Acme::Acme::Acme::XS:
+    file: lib/TOBYINK/Acme/Acme/Acme/XS.pm
+    version: 0.001
+resources:
+  bugtracker: http://rt.cpan.org/Dist/Display.html?Queue=TOBYINK-Acme-Acme-Acme-XS
+  homepage: https://metacpan.org/release/TOBYINK-Acme-Acme-Acme-XS
+  license: http://dev.perl.org/licenses/
+version: 0.001
+x_contributors: []
+x_provides_scripts: {}

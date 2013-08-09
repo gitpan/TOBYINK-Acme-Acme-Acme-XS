@@ -1,0 +1,61 @@
+@prefix cpan-uri: <http://purl.org/NET/cpan-uri/terms#> .
+@prefix dc:    <http://purl.org/dc/terms/> .
+@prefix doap:  <http://usefulinc.com/ns/doap#> .
+@prefix doap-changeset: <http://ontologi.es/doap-changeset#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix nfo:   <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dev.perl.org/licenses/>
+	dc:title             "the same terms as the perl 5 programming language system itself".
+
+<http://purl.org/NET/cpan-uri/dist/TOBYINK-Acme-Acme-Acme-XS/project>
+	a                    doap:Project;
+	cpan-uri:perl_version_from [
+		a nfo:FileDataObject, nfo:SourceCode;
+		rdfs:label "TOBYINK::Acme::Acme::Acme::XS";
+		nfo:fileName "lib/TOBYINK/Acme/Acme/Acme/XS.pm";
+		nfo:programmingLanguage "Perl";
+	];
+	cpan-uri:readme_from [
+		a nfo:FileDataObject, nfo:SourceCode;
+		rdfs:label "TOBYINK::Acme::Acme::Acme::XS";
+		nfo:fileName "lib/TOBYINK/Acme/Acme/Acme/XS.pm";
+		nfo:programmingLanguage "Perl";
+	];
+	cpan-uri:version_from [
+		a nfo:FileDataObject, nfo:SourceCode;
+		rdfs:label "TOBYINK::Acme::Acme::Acme::XS";
+		nfo:fileName "lib/TOBYINK/Acme/Acme/Acme/XS.pm";
+		nfo:programmingLanguage "Perl";
+	];
+	dc:contributor       <http://purl.org/NET/cpan-uri/person/tobyink>;
+	doap:bug-database    <http://rt.cpan.org/Dist/Display.html?Queue=TOBYINK-Acme-Acme-Acme-XS>;
+	doap:created         "2013-08-09"^^xsd:date;
+	doap:developer       <http://purl.org/NET/cpan-uri/person/tobyink>;
+	doap:download-page   <https://metacpan.org/release/TOBYINK-Acme-Acme-Acme-XS>;
+	doap:homepage        <https://metacpan.org/release/TOBYINK-Acme-Acme-Acme-XS>;
+	doap:license         <http://dev.perl.org/licenses/>;
+	doap:maintainer      <http://purl.org/NET/cpan-uri/person/tobyink>;
+	doap:name            "TOBYINK-Acme-Acme-Acme-XS";
+	doap:programming-language "Perl";
+	doap:release         <http://purl.org/NET/cpan-uri/dist/TOBYINK-Acme-Acme-Acme-XS/v_0-001>;
+	doap:shortdesc       "an XS-based TOBYINK::Acme::Acme::Acme".
+
+<http://purl.org/NET/cpan-uri/dist/TOBYINK-Acme-Acme-Acme-XS/v_0-001>
+	a                    doap:Version;
+	rdfs:label           "Initial release";
+	dc:identifier        "TOBYINK-Acme-Acme-Acme-XS-0.001"^^xsd:string;
+	dc:issued            "2013-08-09"^^xsd:date;
+	doap-changeset:released-by <http://purl.org/NET/cpan-uri/person/tobyink>;
+	doap:file-release    <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/TOBYINK-Acme-Acme-Acme-XS-0.001.tar.gz>;
+	doap:revision        "0.001"^^xsd:string.
+
+<http://purl.org/NET/cpan-uri/person/tobyink>
+	a                    foaf:Person;
+	foaf:mbox            <mailto:tobyink@cpan.org>;
+	foaf:name            "Toby Inkster";
+	foaf:nick            "TOBYINK";
+	foaf:page            <https://metacpan.org/author/TOBYINK>.
+

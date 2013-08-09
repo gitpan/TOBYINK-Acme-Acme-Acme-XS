@@ -4,7 +4,7 @@ use ExtUtils::MakeMaker 6.31;
 my $meta = {
   "abstract"           => "an XS-based TOBYINK::Acme::Acme::Acme",
   "author"             => ["Toby Inkster <tobyink\@cpan.org>"],
-  "dynamic_config"     => 0,
+  "dynamic_config"     => 1,
   "generated_by"       => "Dist::Inkt::Profile::TOBYINK version 0.001, CPAN::Meta::Converter version 2.120921",
   "keywords"           => [],
   "license"            => ["perl_5"],
@@ -16,7 +16,7 @@ my $meta = {
   "no_index"           => { directory => ["inc", "t", "xt"] },
   "prereqs"            => { configure => { requires => { "ExtUtils::MakeMaker" => 6.31 } } },
   "provides"           => {
-                            "TOBYINK::Acme::Acme::Acme::XS" => { file => "lib/TOBYINK/Acme/Acme/Acme/XS.pm", version => 0.001 },
+                            "TOBYINK::Acme::Acme::Acme::XS" => { file => "lib/TOBYINK/Acme/Acme/Acme/XS.pm", version => 0.002 },
                           },
   "release_status"     => "stable",
   "resources"          => {
@@ -26,7 +26,7 @@ my $meta = {
                             homepage   => "https://metacpan.org/release/TOBYINK-Acme-Acme-Acme-XS",
                             license    => ["http://dev.perl.org/licenses/"],
                           },
-  "version"            => 0.001,
+  "version"            => 0.002,
   "x_contributors"     => [],
   "x_provides_scripts" => {},
 };

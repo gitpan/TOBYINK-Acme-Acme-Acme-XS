@@ -5,7 +5,7 @@ use warnings;
 
 BEGIN {
 	$TOBYINK::Acme::Acme::Acme::XS::AUTHORITY = 'cpan:TOBYINK';
-	$TOBYINK::Acme::Acme::Acme::XS::VERSION   = '0.001';
+	$TOBYINK::Acme::Acme::Acme::XS::VERSION   = '0.002';
 }
 
 require XSLoader;

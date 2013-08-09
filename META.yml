@@ -5,7 +5,7 @@ author:
 build_requires: {}
 configure_requires:
   ExtUtils::MakeMaker: 6.31
-dynamic_config: 0
+dynamic_config: 1
 generated_by: 'Dist::Inkt::Profile::TOBYINK version 0.001, CPAN::Meta::Converter version 2.120921'
 keywords: []
 license: unknown
@@ -21,11 +21,11 @@ no_index:
 provides:
   TOBYINK::Acme::Acme::Acme::XS:
     file: lib/TOBYINK/Acme/Acme/Acme/XS.pm
-    version: 0.001
+    version: 0.002
 resources:
   bugtracker: http://rt.cpan.org/Dist/Display.html?Queue=TOBYINK-Acme-Acme-Acme-XS
   homepage: https://metacpan.org/release/TOBYINK-Acme-Acme-Acme-XS
   license: http://dev.perl.org/licenses/
-version: 0.001
+version: 0.002
 x_contributors: []
 x_provides_scripts: {}
